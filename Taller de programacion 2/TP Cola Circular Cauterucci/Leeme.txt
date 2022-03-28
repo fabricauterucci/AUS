@@ -1,0 +1,16 @@
+Primero que nada gracias.
+El trabajo compila con la terminal, ubicada en este directorio, y con el siguiente comando 'gcc -W ColaCircular.h "TP Cauterucci cola_circular.c" -o tp2' sin las comillas simples. 
+
+Luego, para ejecutar el codigo ingresar './tp2', tambien sin comillas.
+
+
+Como fuentes se utilizo el material trabajado en clase sobre colas, y ademas,
+el siguiente link:
+
+https://stackoverflow.com/questions/8060170/printing-hexadecimal-characters-in-c
+
+que explicaba como imprimir las direcciones, ya que fue necesario en la condicion del while, en el listar cola, es decir, a la hora de mostrar los elementos, sin que repita y la cola pueda finalizar, ya que era circular.
+
+Saludos cordiales,
+Fabrizio.
+

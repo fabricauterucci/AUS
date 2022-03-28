@@ -1,0 +1,14 @@
+Buenas, espero que usted se encuentre muy bien. El programa compila abriendo la terminal en la carpeta de "TP Arboles Cauterucci", y luego con el comando gcc
+
+
+gcc -W ArbolBinario.h "TP Cauterucci arbol_binario.c" -o tp
+
+Luego, para ejecutar el codigo ingresar './tp', sin comillas.
+
+Como fuentes se utilizo el material trabajado en clase sobre Arboles, el de Estructuras de datos abstractas del profe Pablo, asi como tambien su apunte de Archivos Input - Output y ademas, el siguiente link:
+
+https://stackoverflow.com/questions/30065675/what-does-scanf-nc-mean
+
+Fue para tomar la primer cadena completa del archivo de entrada.
+
+

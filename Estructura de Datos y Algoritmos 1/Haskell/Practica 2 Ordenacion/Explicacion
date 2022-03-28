@@ -1,0 +1,24 @@
+Selection sort:
+1)Definimos delete y l. donde l es el elemento a borrar y l es la lista. Comienza
+con la lista vacia
+2)Definimos minimo de una lista, quitando el segundo o primer valor si x < y, con (x:y:t)
+3)Definimos el selection sort, con vacia, lista identidad, luego ssort l va de m:ssort 'l, con m = minimo lista y l' = delete m l. Es decir, pone primero al minimo y luego borra al minimo de la lista'.
+
+
+Insertion Sort
+1) Definimos insert x [], donde insertamos el elemento x, si x < y, sino con y:insert x t
+
+2)Definimos isort, que toma una lista vacia, la identidad, y (x:t) luego hace
+insert x (isort t)
+
+Quick Sort
+1)Empieza directamente el qsort, con vacia e identidad. Luego hace "qsort" menores ++ [x] ++ "qsort" mayores, y define esas listas respectivamente.
+
+Merge Sort
+1) Definimos split, que separa la lista vacia en una tupla de vacias, la identidad en una identidad como primer componente y una lista vacia en la segunda,
+luego toma (a:b:t) y hace (a:m,b:n) donde (m,n) = split t
+
+2)Definimos merge, toma dos listas vacias, y las une en una. La lista vacia y otra lista devuelve la lista, luego hace merge (x:xs) (y:ys) si x < y luego x_ merge xs (y:ys) sino y:merge (x:xs) ys. Son 4 lineas
+
+3)Finalmente hacemos vacia es vacia, identidad es identidad, y msort lista, let (i,j) = split lista; i' = msort i; j' = msort = j;
+in merge i' j'

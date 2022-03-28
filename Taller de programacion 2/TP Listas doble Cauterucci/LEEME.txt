@@ -1,0 +1,8 @@
+Primero que nada gracias.
+El trabajo compila con la terminal, ubicada en este directorio, y con el siguiente comando 'gcc -W ListaDoble.h "TP Cauterucci doble.c" -o tp' sin las comillas simples. 
+
+Luego, para ejecutar el codigo ingresar './tp', tambien sin comillas.
+
+Saludos cordiales,
+Fabrizio.
+
