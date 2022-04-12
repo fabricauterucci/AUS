@@ -1,0 +1,28 @@
+Enunciado:
+
+Un grupo de científicos está
+analizando una forma de vida inteligente extraterrestre en
+la reconocida área 52. Han descubierto que, sorprendentemente,
+estos usan las mismas letras que nosotros (26 letras, excluyendo la ñ)
+aunque su alfabeto posee un orden distinto. Se nos encomienda la tarea
+de reordenar un diccionario en español para que los extraterrestres puedan
+buscar palabras en nuestra lengua más fácilmente. Diseñar un algoritmo que
+dada un string que representa todas las letras del alfabeto ordenadas según
+los extraterrestres y una lista de palabras, devuelva una lista de palabras
+ordenadas (en el orden que entiendan los extraterrestres)
+
+
+
+
+
+
+Una vez abierto y compilado el codigo de Orden_extraterrestre.py usted puede
+escribir test_ordenar_extraterrestre() para testear el programa mediante pytest, ya que escribi algunos casos interesantes.
+
+En caso de querer ingresar palabras,
+
+debe poner ordenar_extraterrestre(desordenadas, orden_alfabeto), dandole valor a las variables, es decir la lista de cadenas en desordenadas, y el orden_alfabeto. Un caso podria ser el siguiente:
+
+ordenada = ['revestir', 'miel', 'extraterrestre', 'auto', 'automovil', 'al']
+orden_alfabeto = 'zyxwvutsrqponmlkjihgfedcba'
+y luego ordenar_extraterrestre(desordenadas, orden_alfabeto)
